@@ -14,13 +14,14 @@ services:
         - techchallenge.mysql
     networks:
         - techchallenge.network
-
+  
   techchallenge.mysql:
     image: mysql:5.6
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: hipages
       MYSQL_DATABASE: hipages
+      MYSQL_USER: root
     ports:
       - "3306:3306"
     volumes:

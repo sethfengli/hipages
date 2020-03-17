@@ -41,9 +41,11 @@ This is native CRA
 
 # Some aspects need be improved which has not enough time to achieve now
 
-### User Authentication not been applied
+### User Authentication, Log haven't not been applied yet
 
-### WebAPI Docker has issues, only local environment works
+### WebAPI Docker has https cert issues, please use http://localhost:5000 to test
+    
+    Local debug please check the database connection string in appsettings.json firstly, change hostname from techchallenge.mysql to localhost
 
 ### Only CQRS + MediatR not Event Sourcing 
 
