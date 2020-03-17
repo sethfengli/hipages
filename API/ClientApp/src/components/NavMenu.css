@@ -1,0 +1,39 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 1em;
+}
+
+.nav-link {
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.2em;
+  }
+  
+  .nav-item:hover, .nav-link:focus {
+    font-weight: bold;
+    border-bottom: 3px solid #ff5f09; 
+  }
+    
+  .navbar-nav .nav-item:not(:last-child) {
+    border-right: thin solid rgba(0, 0, 0, 0.8);
+  }
+
+
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+
+
+
