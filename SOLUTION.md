@@ -45,7 +45,7 @@ This is native CRA
 
 ### WebAPI Docker has https cert issues, please use http://localhost:5000 to test
     
-    Local debug please check the database connection string in appsettings.json firstly, change hostname from techchallenge.mysql to localhost
+    Local debug please start mysql docker from VS containers, https://localhost:5001 works in debug mode
 
 ### Only CQRS + MediatR not Event Sourcing 
 
